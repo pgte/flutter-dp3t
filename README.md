@@ -37,7 +37,7 @@ dependencies:
 
 Both iOS and Android require some native code to initialize the DP3T SDK. Here is an example from the embedded example app:
 
-* [iOS initialization](ios/Runner/AppDelegate.swift)
+* [iOS initialization](example/ios/Runner/AppDelegate.swift)
 * [Android initialization](example/android/app/src/main/kotlin/me/pgte/dp3t_example/MainActivity.kt)
 
 For these both, you will have to declare the dependency on the original SDK.
