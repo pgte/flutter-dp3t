@@ -1,0 +1,68 @@
+PODS:
+  - BlueCryptor (1.0.32)
+  - BlueECC (1.2.5)
+  - BlueRSA (1.0.34)
+  - dp3t (0.0.1):
+    - DP3TSDK (~> 0.0.2)
+    - Flutter
+  - DP3TSDK (0.0.2):
+    - SQLite.swift (~> 0.12)
+    - SwiftJWT (~> 3.5)
+    - SwiftProtobuf (~> 1.6)
+  - Flutter (1.0.0)
+  - KituraContracts (1.2.1):
+    - LoggerAPI (~> 1.7)
+  - LoggerAPI (1.9.0):
+    - Logging (~> 1.1)
+  - Logging (1.2.0)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - SwiftJWT (3.5.3):
+    - BlueCryptor (~> 1.0)
+    - BlueECC (~> 1.1)
+    - BlueRSA (~> 1.0)
+    - KituraContracts (~> 1.1)
+    - LoggerAPI (~> 1.7)
+  - SwiftProtobuf (1.8.0)
+
+DEPENDENCIES:
+  - dp3t (from `.symlinks/plugins/dp3t/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - BlueCryptor
+    - BlueECC
+    - BlueRSA
+    - DP3TSDK
+    - KituraContracts
+    - LoggerAPI
+    - Logging
+    - SQLite.swift
+    - SwiftJWT
+    - SwiftProtobuf
+
+EXTERNAL SOURCES:
+  dp3t:
+    :path: ".symlinks/plugins/dp3t/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  BlueCryptor: b0aee3d9b8f367b49b30de11cda90e1735571c24
+  BlueECC: 0d18e93347d3ec6d41416de21c1ffa4d4cd3c2cc
+  BlueRSA: 6f9776d62d9773502415a7db3bcbb2bbb3f71fc3
+  dp3t: 7335c98a1aead5529b7ef872104df5a8197a7374
+  DP3TSDK: b398641ec3d1232ba35d79fab6cdbf00b9d2dec5
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  KituraContracts: e845e60dc8627ad0a76fa55ef20a45451d8f830b
+  LoggerAPI: fb78461eedac5316b290f2404d88b9d614d96c57
+  Logging: 7838d379d234d7e5ae1265fa02804a9084caf04c
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  SwiftJWT: 9a47a71090cae25767078756b5810e3b630aa9a7
+  SwiftProtobuf: 2cbd9409689b7df170d82a92a33443c8e3e14a70
+
+PODFILE CHECKSUM: 91a02c61a4e232fcf9467709d6c85a11039ce05a
+
+COCOAPODS: 1.9.1
