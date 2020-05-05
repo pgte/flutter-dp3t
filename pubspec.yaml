@@ -1,8 +1,8 @@
 name: dp3t
-description: A new flutter plugin project.
-version: 0.0.1
-author:
-homepage:
+description: Exposes the DP3T SDK API in Flutter.
+version: 0.1.0
+author: Pedro Teixeira <i@pgte.me>
+homepage: https://github.com/pgte/flutter-dp3t
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
