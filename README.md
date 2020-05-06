@@ -81,7 +81,7 @@ import 'package:dp3t/dp3t.dart';
 ## API
 
 
-### Future<void> initializeManually({String appId, String reportBaseUrl, String bucketBaseUrl, String jwtPublicKey})
+### `Future<void> initializeManually({String appId, String reportBaseUrl, String bucketBaseUrl, String jwtPublicKey})`
 
 Example:
 
@@ -93,7 +93,7 @@ await Dp3t.initializeManually({
   jwtPublicKey: jwtPublicKey}) // Base64-encoded JWT
 ```
 
-### Future<void> initializeWithDiscovery({ String appId, bool dev })
+### `Future<void> initializeWithDiscovery({ String appId, bool dev })`
 
 Example:
 
@@ -105,7 +105,7 @@ Dp3t.initializeWithDiscovery({
 ```
 
 
-### Future<void> reset()
+### `Future<void> reset()`
 
 Example:
 
@@ -114,7 +114,7 @@ await Dp3t.reset()
 ```
 
 
-### Future<void> startTracing()
+### `Future<void> startTracing()`
 
 Example:
 
@@ -123,7 +123,7 @@ await Dp3t.startTracing()
 ```
 
 
-### Future<void> stopTracing()
+### `Future<void> stopTracing()`
 
 Example:
 
@@ -131,7 +131,7 @@ Example:
 await Dp3t.stopTracing()
 ```
 
-### Future<Map> status()
+### `Future<Map> status()`
 
 Example:
 
@@ -161,7 +161,7 @@ The status map is an object with the following shape:
 }
 ```
 
-### Future<void> iWasExposed({DateTime onset, String authentication})
+### `Future<void> iWasExposed({DateTime onset, String authentication})`
 
 Example:
 
