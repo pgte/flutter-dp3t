@@ -1,6 +1,6 @@
 name: dp3t
 description: Exposes the DP3T SDK API in Flutter.
-version: 0.1.0
+version: 0.1.1
 author: Pedro Teixeira <i@pgte.me>
 homepage: https://github.com/pgte/flutter-dp3t
 
